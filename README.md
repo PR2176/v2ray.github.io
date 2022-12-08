@@ -430,7 +430,9 @@ Clash-Android版本下载（Assets下自行选择）<a href="https://github.com/
 
     
 <HR style="border:1 dashed #987cb9" width="100%" color=#987cb9 SIZE=1>
+    
 <a name="xhj"></a>   
+    
  ###  关于小火箭（Shadowrocket，iOS专用）   
  
  其实iOS安装app在appstore安装即可，但是 小火箭在国区appstore已经下架了，所以只能在非国区的appstore下载安装；所以就需要非国区的appstore账号；并且小火箭也不是免费的，美国区appstore的小火箭售价是2.99美金
