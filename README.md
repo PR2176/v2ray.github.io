@@ -1,13 +1,15 @@
 #  前言
 
+
+
 提供v2ray与x-ui一体搭建教程，实在看不懂的，可以<p>TG留言<a href="https://t.me/wangfast" target="_blank" rel="noopener noreferrer">点击留言 </a></p> 
-搭建不收费，右上角点亮小星星，时间不固定，我一般半夜看TG，我看见就会回你们了，10分钟完事儿，请附上IP，地址和密码或远程密钥
+搭建不收费，右上角点亮小星星，时间不固定，我一般半夜看TG，我看见就会回你们了，10分钟就完事儿，留言请附上vultr邮箱账号和密码，搭建完成后请修改密码
 
 
 ![123.png](https://s2.loli.net/2022/12/08/rzfMEwc1lKU6CyW.png)
 
 
-搭建完成后自行修改密码
+搭建完成后自行修改IP密码
 
 ![212333.png](https://s2.loli.net/2022/12/08/KmSArEjoGQbMF2u.png)
 
@@ -27,6 +29,38 @@ ssh连接后，输入命令passwd
         <li><a href="#xhj">关于小火箭</a></li>
 </body>
 </html>
+<a name="fwqzc"></a>
+### 注册流程
+
+
+### 第一、Vultr优点
+Vultr是按小时计费，而非按月计费
+
+IP被封可以随时更换
+
+
+### 第二、登入Vultr官方网站
+
+<p>服务器 <a href="https://www.vultr.com/?ref=9024060" target="_blank" rel="noopener noreferrer">点击注册 </a></p>
+
+
+### 第三、新注册Vultr账户过程
+初次登录VULTR官网的话，可能需要识别是否机器还是人类。然后我们勾选后需要两次进行图形验证。
+
+![qwe.png](https://s2.loli.net/2022/11/17/DGftT8vHNu6WsO9.png)
+
+
+设置邮箱和设置密码
+
+![14ds.png](https://s2.loli.net/2022/11/17/XTus7BShbO1mg3w.png)
+
+### 第四：选择充值方式激活
+Vultr商家支持PayPal和支付宝等主流支付，最低10美元（大概70元）
+
+### 第五、流量选择
+
+请选择开通5美元（1000G）或6美元（2000G）套餐，一般2-3人使用可以选择6美元套餐
+    
 
 # 现在，开始
 <a name="fwqcs"></a>    
@@ -116,37 +150,7 @@ ssh连接后，输入命令passwd
 /root/private.key   
     
     
-<a name="fwqzc"></a>
-### 注册流程
 
-
-### 第一、Vultr优点
-Vultr是按小时计费，而非按月计费
-
-IP被封可以随时更换
-
-
-### 第二、登入Vultr官方网站
-
-<p>服务器 <a href="https://www.vultr.com/?ref=9024060" target="_blank" rel="noopener noreferrer">点击注册 </a></p>
-
-
-### 第三、新注册Vultr账户过程
-初次登录VULTR官网的话，可能需要识别是否机器还是人类。然后我们勾选后需要两次进行图形验证。
-
-![qwe.png](https://s2.loli.net/2022/11/17/DGftT8vHNu6WsO9.png)
-
-
-设置邮箱和设置密码
-
-![14ds.png](https://s2.loli.net/2022/11/17/XTus7BShbO1mg3w.png)
-
-### 第四：选择充值方式激活
-Vultr商家支持PayPal和支付宝等主流支付，最低10美元（大概70元）
-
-### 第五、流量选择
-
-请选择开通5美元（1000G）或6美元（2000G）套餐，一般2-3人使用可以选择6美元套餐
 
 
     
