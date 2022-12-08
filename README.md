@@ -158,6 +158,7 @@ Vultr商家支持PayPal和支付宝等主流支付，最低10美元（大概70�
 2.注册 https://www.cloudflare.com/ （他的域名稍贵，所以在别的服务商买） ，将买的域名转到cloudflare（https://321555.xyz/domian/%E4%BB%8Enamecheap%E8%BD%AC%E7%A7%BB%E5%9F%9F%E5%90%8D%E5%88%B0cloudflare/）
     
 3.也可以在namecheap解析（https://zhuanlan.zhihu.com/p/33261777）
+    
 （如果域名解析这几步你看不懂了，可能需要留言了）
     
 <body>
@@ -178,29 +179,50 @@ https://jingyan.baidu.com/article/4dc40848f2c18e89d946f193.html
     
     
 <a name="dajian"></a> 
-###搭建（最重要） 
+</br>
+    
+## 搭建（最重要） 
  
 服务器连接到finalshell后
     
 1.输入下面命令，然后回车
+
 apt update -y
+
 2.输入下面命令，然后回车
+
 apt install -y curl   
+
 3.输入下面命令，然后回车
+
 apt install -y socat
+
 4.安装脚本
+
 curl https://get.acme.sh | sh
-5.安装脚本 （将exnbdzxmnv543@gmail.com换成你自己的邮箱）   
+
+5.安装脚本 （将exnbdzxmnv543@gmail.com换成你自己的邮箱）
+
 ~/.acme.sh/acme.sh --register-account -m exnbdzxmnv543@gmail.com
+
 6.放行端口（这是三行代码，请挨个输入）
+
 iptables -I INPUT -p tcp --dport 80 -j ACCEPT
+
 iptables -I INPUT -p tcp --dport 443 -j ACCEPT
+
 iptables -I INPUT -p tcp --dport 1000:65535 -j ACCEPT
+
 7.申请证书（将baidu.com换成你的域名 ）
+
 ~/.acme.sh/acme.sh  --issue -d baidu.com   --standalone
+
 8.申请证书（将baidu.com换成你的域名 ）
+
 ~/.acme.sh/acme.sh --installcert -d baidu.com --key-file /root/private.key --fullchain-file /root/cert.crt
+
 9.安装xray脚本
+
 bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
             
         
@@ -212,7 +234,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 默认密码：admin/dmain或者admin/123456，会有提示  
     
     
-    
+</br>
 
 <a name="gj"></a>   
 ## 工具区域
