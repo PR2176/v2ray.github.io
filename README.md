@@ -2,11 +2,9 @@
 
 
 
-提供v2ray与x-ui一体搭建教程，实在看不懂的，可以<p>TG留言<a href="https://t.me/wangfast" target="_blank" rel="noopener noreferrer">点击留言 </a></p> 
-搭建不收费，右上角点亮小星星，时间不固定，我一般半夜看TG，我看见就会回你们了，10分钟就完事儿，留言请附上vultr邮箱账号和密码，搭建完成后请修改密码
-
-
-![123.png](https://s2.loli.net/2022/12/08/rzfMEwc1lKU6CyW.png)
+提供v2ray与x-ui一体搭建教程，实在看不懂的，可以TG留言
+<p><a href="https://t.me/wangfast" target="_blank" rel="noopener noreferrer">点击留言 </a></p> 
+搭建不收费，喜欢的可以右上角点亮小星星，时间不固定，我一般半夜看TG，我看见就会回你们了，10分钟就完事儿，留言请附上vultr邮箱账号和密码，搭建完成后请修改密码
 
 
 搭建完成后自行修改IP密码
