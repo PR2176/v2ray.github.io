@@ -1,7 +1,4 @@
 <!DOCTYPE html><html><head>
-    <meta charset="UTF-8">
-    <title>锚演示-基础教程nhooo.com</title>
-</head>
 <body>
     <ul>
         <li><a href="#miao">去找喵星人</a></li>
