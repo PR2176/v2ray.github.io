@@ -1,41 +1,76 @@
+提供v2ray与x-ui一体搭建教程，实在看不懂的，可以TG留言，不收费，10分钟完事儿
+
 <!DOCTYPE html><html><head>
 <body>
     <ul>
-        <li><a href="#miao">去找喵星人</a></li>
-        <li><a href="#wang">去找汪星人</a></li>
-        <li><a href="#meng">其他萌物</a></li>
+        <li><a href="#fwqcs">节点测速</a></li>
+        <li><a href="#fwqcs">节点后台</a></li>
+        <li><a href="#fwqzc">服务器注册</a></li>
+        <li><a href="#wang">域名解析</a></li>
+        <li><a href="#meng">SSH连接</a></li>
+        <li><a href="#meng">SSH连接</a></li>
+        
     </ul>
-
-    <a name="miao"></a><!--设置锚点方法1-->
-    <h3 id="miao">喵星人基地</h3><!--设置锚点方法2-->
-    <p>喵喵喵~</p>
-    <p>喵喵喵~</p>
-    <p>喵喵喵~</p>
-    <p>喵喵喵~</p>
-    <p>喵喵喵~</p>
-    <p>喵喵喵~</p>
-    
-    <a name="wang"></a>
-    <p>汪汪汪~</p>
-    <p>汪汪汪~</p>
-    <p>汪汪汪~</p>
-    <p>汪汪汪~</p>
-    <p>汪汪汪~</p>
-    <p>汪汪汪~</p>
-
-    <a name="meng"></a>
-    <p>萌萌萌~</p>
-    <p>萌萌萌~</p>
-    <p>萌萌萌~</p>
-    <p>萌萌萌~</p>
-    <p>萌萌萌~</p>
-    <p>萌萌萌~</p>
 </body>
 </html>
 
+    
+<a name="fwqcs"></a>    
+## 关于测速
+
+很多朋友让我们把速度测速放上来，这个没什么参考性，跟网络、设备及地区有关系，家庭普通100-200M带宽看个2K、4K/,完全没有问题（我看YouTube一般在8w-15w kbps），8K需要你的显卡及显示屏支持，不然会显得一卡一卡的，不流畅
+
+节点速度跟宽度运营商（现在一般都是光纤入户）、区域、家庭带宽有关系（想要达到最佳效果，得配上千M网卡（现在电脑一般自带）、网线（推荐山泽6类线，2块钱1米），千兆路由器）
+
+普通网线及路由器，速度已经够用了
 
 
-<a name="meng"></a>
+## YouTube 4K视频*3840x2160
+
+
+
+### 家庭宽带200M（普通网线）
+
+![家庭宽带200M（普通网线）](https://cdn.shopify.com/s/files/1/0658/7357/6188/files/mryc-0908_2048x2048.png?v=1662608583)
+
+### 家庭宽带200M（六类网线）
+
+![家庭宽带200M（六类网线）](https://cdn.shopify.com/s/files/1/0658/7357/6188/files/mzyc-200M_2048x2048.png?v=1662611318)
+
+家庭宽带越高，速度也会越快
+
+
+### cloudflare下载测速
+
+![cloudflare测速](https://cdn.shopify.com/s/files/1/0658/7357/6188/files/mzcscloudflare_2048x2048.png?v=1662618129)
+
+### speedtest.cn下载测速
+![speedtest.cn下载测速](https://cdn.shopify.com/s/files/1/0658/7357/6188/files/adada56w_2048x2048.png?v=1662937362)
+
+大家可以自行测速：不同地区进行下载的速度（建议在全局代理的环境下测试，并尽量关闭后台占用网络资源较多的程序，以提高测试结果的准确性）
+
+
+#### [测速点一](http://cordcloud.speedtestcustom.com/)
+
+
+
+#### [测速点二](http://aaaaaa.speedtestcustom.com/)
+
+
+#### [测速点三](http://rixcloud.speedtestcustom.com/)
+
+
+#### [测速点四](https://speed.cloudflare.com/)
+    
+<a name="jdht"></a>
+<img src="https://s2.loli.net/2022/11/26/mrB6bFvEc7WNdtl.png" alt="系统状态">
+<img src="https://s2.loli.net/2022/11/26/qfDE4WAxyUNbnrm.png" alt="入站列表">
+<img src="https://s2.loli.net/2022/11/26/5bkeTdEwxXUMuIy.png" alt="添加节点">
+<img src="https://s2.loli.net/2022/11/26/znfpyY6ORb2lmMx.png" alt="面板设置">
+<img src="https://s2.loli.net/2022/11/26/c9DjT8o6yALM7Jl.png" alt="用户设置">
+<img src="https://s2.loli.net/2022/11/26/nsRhjECgXeNl1WF.png" alt="xray设置">    
+    
+<a name="fwqzc"></a>
 ### 注册流程
 
 
