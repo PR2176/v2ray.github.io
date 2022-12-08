@@ -1,6 +1,7 @@
 #  前言
 
-提供v2ray与x-ui一体搭建教程，实在看不懂的，可以TG留言（https://t.me/wangfast） ， 帮忙搭建不收费，右上角点亮小星星，10分钟完事儿，时间不固定，我一般半夜看TG，我看见就会回你们了，请附上IP地址
+提供v2ray与x-ui一体搭建教程，实在看不懂的，可以<p>TG留言<a href="https://t.me/wangfast" target="_blank" rel="noopener noreferrer">点击留言 </a></p> 
+帮忙搭建不收费，右上角点亮小星星，10分钟完事儿，时间不固定，我一般半夜看TG，我看见就会回你们了，请附上IP地址
 
 
 ![123.png](https://s2.loli.net/2022/12/08/rzfMEwc1lKU6CyW.png)
@@ -127,7 +128,7 @@ IP被封可以随时更换
 
 ### 第二、登入Vultr官方网站
 
-<p>服务器 <a href="https://www.vultr.com/?ref=9024060" target="_blank" rel="noopener noreferrer">点击注册 </a>.</p>
+<p>服务器 <a href="https://www.vultr.com/?ref=9024060" target="_blank" rel="noopener noreferrer">点击注册 </a></p>
 
 
 ### 第三、新注册Vultr账户过程
