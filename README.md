@@ -4,22 +4,19 @@
 
 提供v2ray与x-ui一体搭建教程，实在看不懂的，可以TG留言
 <p><a href="https://t.me/wangfast" target="_blank" rel="noopener noreferrer">点击留言 </a></p> 
-搭建不收费，喜欢的可以右上角点亮小星星，时间不固定，我一般半夜看TG，我看见就会回你们了，10分钟就完事儿，留言请附上vultr邮箱账号和密码，搭建完成后请修改密码
-
-
-搭建完成后自行修改IP密码
+搭建不收费，喜欢的可以右上角点亮小星星，时间不固定，我一般半夜看TG，我看见就会回你们了，10分钟就完事儿，留言请附上vultr邮箱账号和密码。1搭建完成后请修改密码 2搭建完成后自行修改IP密码
 
 ![212333.png](https://s2.loli.net/2022/12/08/KmSArEjoGQbMF2u.png)
 
 ssh连接后，输入命令passwd
-输入两次新密码后，远程密码就更改成功了（一定要记清楚新修改的密码）
+然后输入两次新密码后，远程密码就更改成功了（一定要记清楚新修改的密码）
 
 <!DOCTYPE html><html><head>
 <body>
     <ul>
+        <li><a href="#fwqzc">服务器注册</a></li>
         <li><a href="#fwqcs">节点测速</a></li>
         <li><a href="#jdht">节点后台</a></li>
-        <li><a href="#fwqzc">服务器注册</a></li>
         <li><a href="#ymjx">域名解析</a></li>
         <li><a href="#sshlj">SSH连接</a></li>
         <li><a href="#dajian">开始搭建</a></li>
@@ -28,7 +25,8 @@ ssh连接后，输入命令passwd
 </body>
 </html>
 <a name="fwqzc"></a>
-### 注册流程
+    
+## 注册、购买服务器
 
 
 ### 第一、Vultr优点
@@ -53,14 +51,16 @@ IP被封可以随时更换
 ![14ds.png](https://s2.loli.net/2022/11/17/XTus7BShbO1mg3w.png)
 
 ### 第四：选择充值方式激活
-Vultr商家支持PayPal和支付宝等主流支付，最低10美元（大概70元）
+Vultr商家支持PayPal和支付宝等主流支付，最低10美元（大概70元，可以用两个月，用完后继续充值即可）
 
 ### 第五、流量选择
 
 请选择开通5美元（1000G）或6美元（2000G）套餐，一般2-3人使用可以选择6美元套餐
     
 
-# 现在，开始
+    
+# 现在，开始→
+    
 <a name="fwqcs"></a>    
 ## 关于测速
 
