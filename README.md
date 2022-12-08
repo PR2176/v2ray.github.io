@@ -1,7 +1,7 @@
 #  前言
 
 
-
+<a name="qy"></a>
 提供v2ray与x-ui一体搭建教程，实在看不懂的，可以TG留言
 <p><a href="https://t.me/wangfast" target="_blank" rel="noopener noreferrer">点击留言 </a></p> 
 搭建不收费，喜欢的可以右上角点亮小星星，时间不固定，我一般半夜看TG，我看见就会回你们了，10分钟就完事儿，留言请附上vultr邮箱账号和密码。1搭建完成后请修改密码 2搭建完成后自行修改IP密码
@@ -148,17 +148,24 @@ Vultr商家支持PayPal和支付宝等主流支付，最低10美元（大概70�
 /root/private.key   
     
     
-
+</br>
 
 
 <a name="ymjx"></a>
 ##  域名解析
-1.请购买国外域名，一般第一年便宜15块左右（选.xyz），续费比较贵80-90一年，用一年重新买一个就行了，没必要花那冤枉钱，https://www.namecheap.com/ 或者 https://www.godaddy.com/
+1.请购买国外域名，一般第一年便宜15块左右（选.xyz），国外域名续费比较贵80-90一年 https://www.namecheap.com/ 或者 https://www.godaddy.com/
     
 2.注册 https://www.cloudflare.com/ （他的域名稍贵，所以在别的服务商买） ，将买的域名转到cloudflare（https://321555.xyz/domian/%E4%BB%8Enamecheap%E8%BD%AC%E7%A7%BB%E5%9F%9F%E5%90%8D%E5%88%B0cloudflare/）
     
 3.也可以在namecheap解析（https://zhuanlan.zhihu.com/p/33261777）
-
+（如果域名解析这三步你看不懂了，可能需要留言了）
+    
+    <!DOCTYPE html><html><head>
+<body>
+    <ul>
+        <li><a href="#fwqzc">给我留言吧，我下班后会帮你搭建</a></li>
+</body>
+</html>
 </br>
     
 <a name="sshlj"></a>  
