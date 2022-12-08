@@ -151,7 +151,7 @@ Vultr商家支持PayPal和支付宝等主流支付，最低10美元（大概70�
 
 
 
-    
+<a name="ymjx"></a>
 ##  域名解析
 1.请购买国外域名，一般第一年便宜15块左右（选.xyz），续费比较贵80-90一年，用一年重新买一个就行了，没必要花那冤枉钱，https://www.namecheap.com/ 或者 https://www.godaddy.com/
     
@@ -159,7 +159,9 @@ Vultr商家支持PayPal和支付宝等主流支付，最低10美元（大概70�
     
 3.也可以在namecheap解析（https://zhuanlan.zhihu.com/p/33261777）
 
+</br>
     
+<a name="sshlj"></a>  
 ## ssh连接
 https://jingyan.baidu.com/article/4dc40848f2c18e89d946f193.html
     
@@ -169,15 +171,39 @@ https://jingyan.baidu.com/article/4dc40848f2c18e89d946f193.html
 2<a href="https://wa6.lanzoux.com/iPeC7y3hryf/" target="_blank" rel="noopener noreferrer">FinalShell-MAC版下载</a>   
     
     
+<a name="dajian"></a> 
+###搭建（最重要） 
+ 
+服务器连接到finalshell后
     
-    
-    
-    
-    
-    
-    
-    
-    
+1.输入下面命令，然后回车
+apt update -y
+2.输入下面命令，然后回车
+apt install -y curl   
+3.输入下面命令，然后回车
+apt install -y socat
+4.安装脚本
+curl https://get.acme.sh | sh
+5.安装脚本 （将exnbdzxmnv543@gmail.com换成你自己的邮箱）   
+~/.acme.sh/acme.sh --register-account -m exnbdzxmnv543@gmail.com
+6.放行端口（这是三行代码，请挨个输入）
+iptables -I INPUT -p tcp --dport 80 -j ACCEPT
+iptables -I INPUT -p tcp --dport 443 -j ACCEPT
+iptables -I INPUT -p tcp --dport 1000:65535 -j ACCEPT
+7.申请证书（将baidu.com换成你的域名 ）
+~/.acme.sh/acme.sh  --issue -d baidu.com   --standalone
+8.申请证书（将baidu.com换成你的域名 ）
+~/.acme.sh/acme.sh --installcert -d baidu.com --key-file /root/private.key --fullchain-file /root/cert.crt
+9.安装xray脚本
+bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
+            
+        
+
+已经搭建完成了
+            
+后台地址你的ip:端口号（默认54321）
+            
+默认密码：admin/dmain或者admin/123456，会有提示  
     
     
     
