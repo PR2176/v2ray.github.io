@@ -158,14 +158,13 @@ Vultr商家支持PayPal和支付宝等主流支付，最低10美元（大概70�
 2.注册 https://www.cloudflare.com/ （他的域名稍贵，所以在别的服务商买） ，将买的域名转到cloudflare（https://321555.xyz/domian/%E4%BB%8Enamecheap%E8%BD%AC%E7%A7%BB%E5%9F%9F%E5%90%8D%E5%88%B0cloudflare/）
     
 3.也可以在namecheap解析（https://zhuanlan.zhihu.com/p/33261777）
-（如果域名解析这三步你看不懂了，可能需要留言了）
+（如果域名解析这几步你看不懂了，可能需要留言了）
     
-    <!DOCTYPE html><html><head>
 <body>
     <ul>
-        <li><a href="#fwqzc">给我留言吧，我下班后会帮你搭建</a></li>
+        <li><a href="#qy">给我留言吧，我下班后会帮你搭建</a></li>
 </body>
-</html>
+
 </br>
     
 <a name="sshlj"></a>  
