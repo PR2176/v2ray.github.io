@@ -4,13 +4,12 @@
 <body>
     <ul>
         <li><a href="#fwqcs">节点测速</a></li>
-        <li><a href="#fwqcs">节点后台</a></li>
+        <li><a href="#jdht">节点后台</a></li>
         <li><a href="#fwqzc">服务器注册</a></li>
         <li><a href="#wang">域名解析</a></li>
         <li><a href="#meng">SSH连接</a></li>
         <li><a href="#meng">SSH连接</a></li>
-        
-    </ul>
+   
 </body>
 </html>
 
