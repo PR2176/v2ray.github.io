@@ -344,7 +344,8 @@ MAC推荐使用ClashX
 ClashX 是一个拥有 GUI界面基于Clash 可自定义规则的 macOS代理应用。
 
 支持Shadowsocks协议和其 simple-obfs插件、v2ray-plugin 插件以及 VMess 协议和其 TCP、WebSocket 等传输方式。
-<HR style="border:1 dashed #987cb9" width="80%" color=#987cb9 SIZE=1>
+
+<HR style="border:1 dashed #987cb9" width="100%" color=#987cb9 SIZE=1>
 
 #### 订阅链接配置
 
