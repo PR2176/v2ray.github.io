@@ -288,13 +288,14 @@ v2rayN 目前需要使用微软官网 .Net 4.8 的运行库，若缺少该运行
 
 请下载并安装 .Net Framework 4.8 后，重启电脑再打开 v2rayN，问题应该已经得到解决。   
     
-    
+<HR style="border:1 dashed #987cb9" width="100%" color=#987cb9 SIZE=1>    
 </br>
 SSR软件下载（Assets下ShadowsocksR-win.zip）：ShadowsocksR-win-4.9.2.zip<a href="https://github.com/shadowsocksrr/shadowsocksr-csharp/releases">点击下载</a>
 
 
 </br>
-    
+<HR style="border:1 dashed #987cb9" width="100%" color=#987cb9 SIZE=1> 
+ 
 ### 安卓APP下载
 v2Ray APP下载（Assets下v2rayNG.apk）：v2rayNG.apk<a href="https://github.com/2dust/v2rayNG/releases/tag/1.7.23">点击下载</a>
 </br>
@@ -325,13 +326,13 @@ v2Ray APP下载（Assets下v2rayNG.apk）：v2rayNG.apk<a href="https://github.c
 
 返回到主页面，点击右下角灰色v图标，待他变绿即可
 </br>
-    
-
+<HR style="border:1 dashed #987cb9" width="100%" color=#987cb9 SIZE=1>
 SSR APP下载（Assets下shadowsocksr-android.apk）：shadowsocksr-android.apk<a href="https://github.com/shadowsocksrr/shadowsocksr-android/releases">点击下载</a>
 
-
+<HR style="border:1 dashed #987cb9" width="100%" color=#987cb9 SIZE=1>
     
 </br>
+
 ###  MAC电脑软件下载
 
 Clash X 软件下载（Assets下ClashX.dmg）：ClashX.dmg<a href="https://github.com/yichengchen/clashX/releases">点击下载</a>
@@ -345,7 +346,7 @@ ClashX 是一个拥有 GUI界面基于Clash 可自定义规则的 macOS代理应
 
 支持Shadowsocks协议和其 simple-obfs插件、v2ray-plugin 插件以及 VMess 协议和其 TCP、WebSocket 等传输方式。
 
-<HR style="border:1 dashed #987cb9" width="100%" color=#987cb9 SIZE=1>
+
 
 #### 订阅链接配置
 
@@ -415,8 +416,9 @@ ClashX 是一个拥有 GUI界面基于Clash 可自定义规则的 macOS代理应
 ![Clashx-6.webp](https://s2.loli.net/2022/10/11/vjigADhZlI8BESV.webp)
 
 </br>
+<HR style="border:1 dashed #987cb9" width="100%" color=#987cb9 SIZE=1>
 V2Ray软件下载（Assets下两个V2rayU按照自己电脑自行下载）：V2rayU.dmg<a href="https://github.com/yanue/V2rayU/releases">点击下载</a>
-
+<HR style="border:1 dashed #987cb9" width="100%" color=#987cb9 SIZE=1>
 </br>
     
     
@@ -427,7 +429,7 @@ Clash-Win版本 和 MAC版本 下载（Assets下自行选择）<a href="https://
 Clash-Android版本下载（Assets下自行选择）<a href="https://github.com/Kr328/ClashForAndroid/releases">点击下载</a>
 
     
-
+<HR style="border:1 dashed #987cb9" width="100%" color=#987cb9 SIZE=1>
 <a name="xhj"></a>   
  ###  关于小火箭（Shadowrocket，iOS专用）   
  
