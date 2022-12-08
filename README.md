@@ -93,8 +93,9 @@ ssh连接后，输入命令passwd
 <img src="https://s2.loli.net/2022/11/26/5bkeTdEwxXUMuIy.png" alt="添加节点">
 <img src="https://s2.loli.net/2022/11/26/znfpyY6ORb2lmMx.png" alt="面板设置">
 <img src="https://s2.loli.net/2022/11/26/c9DjT8o6yALM7Jl.png" alt="用户设置">
-<img src="https://s2.loli.net/2022/11/26/nsRhjECgXeNl1WF.png" alt="xray设置">    
- #### vmess设置
+<img src="https://s2.loli.net/2022/11/26/nsRhjECgXeNl1WF.png" alt="xray设置">  
+    
+#### vmess设置
 
 ![vmess](https://s2.loli.net/2022/10/11/l2EFQaq6wAObXBo.webp)
 
