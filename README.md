@@ -150,38 +150,36 @@ Vultr商家支持PayPal和支付宝等主流支付，最低10美元（大概70�
 
 ## 工具区域
 
-   SSH连接 
-    FinalShell下载：https://wa6.lanzoui.com/ihjg2y3h14j
-    FinalShell-MAC版下载：https://wa6.lanzoui.com/iPeC7y3hryf
+####   SSH连接 
+    <a href="https://wa6.lanzoux.com/ihjg2y3h14j/" target="_blank" rel="noopener noreferrer">FinalShell下载</a>
+    <a href="https://wa6.lanzoux.com/iPeC7y3hryf/" target="_blank" rel="noopener noreferrer">FinalShell-MAC版下载</a>
+ 
     
-   翻墙软件下载
+#####  官方翻墙软件下载
 请大家根据使用的系统下载对应的软件，主流的翻墙软件是V2ray、Clash、Shadowrocket
-翻墙软件使用教程：https://bit.ly/3TmvCPj
 
 Windows软件下载
-v2rayN软件下载：v2rayN-Core.zip
+v2rayN软件下载（Assets下v2rayN与core都下载并解压，解压后将core文件夹放到v2rayN里面就行）：v2rayN-Core.zip<a href="https://github.com/2dust/v2rayN/releases/tag/5.38">点击下载</a>
 
-SSR软件下载：ShadowsocksR-win-4.9.2.zip
+SSR软件下载（Assets下ShadowsocksR-win.zip）：ShadowsocksR-win-4.9.2.zip<a href="https://github.com/shadowsocksrr/shadowsocksr-csharp/releases">点击下载</a>
 
 
 安卓APP下载
-v2Ray APP下载：v2rayNG.apk
+v2Ray APP下载（Assets下v2rayNG.apk）：v2rayNG.apk<a href="https://github.com/2dust/v2rayNG/releases/tag/1.7.23">点击下载</a>
 
-SSR APP下载：shadowsocksr-android.apk
+SSR APP下载（Assets下shadowsocksr-android.apk）：shadowsocksr-android.apk<a href="https://github.com/shadowsocksrr/shadowsocksr-android/releases">点击下载</a>
 
 
 MAC电脑软件下载
-Clash X 软件下载：ClashX.dmg
+Clash X 软件下载（Assets下ClashX.dmg）：ClashX.dmg<a href="https://github.com/yichengchen/clashX/releases">点击下载</a>
 
-SSR软件下载：ShadowsocksX-NG.zip
-
-V2Ray软件下载：V2rayU.dmg
+V2Ray软件下载（Assets下两个V2rayU按照自己电脑自行下载）：V2rayU.dmg<a href="https://github.com/yanue/V2rayU/releases">点击下载</a>
 
 
 Clash软件下载
-Clash-Win版本 和 MAC版本 下载
+Clash-Win版本 和 MAC版本 下载（Assets下自行选择）<a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">点击下载</a>
 
-Clash-Android版本下载
+Clash-Android版本下载（Assets下自行选择）<a href="https://github.com/Kr328/ClashForAndroid/releases">点击下载</a>
 
 
 *下载软件时，打开网页找到Assets位置，可以看到下载文件
