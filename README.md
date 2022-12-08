@@ -189,6 +189,7 @@ https://jingyan.baidu.com/article/4dc40848f2c18e89d946f193.html
 
 Windows软件下载
 v2rayN软件下载（Assets下v2rayN与core都下载并解压，解压后将core文件夹放到v2rayN里面就行）：v2rayN-Core.zip<a href="https://github.com/2dust/v2rayN/releases/tag/5.38">点击下载</a>
+    
 .NET Framework下载（windows需要4.8版本）<a href="https://dotnet.microsoft.com/zh-cn/download/dotnet-framework">点击下载</a>
 
 
@@ -225,7 +226,7 @@ v2rayN 目前需要使用微软官网 .Net 4.8 的运行库，若缺少该运行
 请下载并安装 .Net Framework 4.8 后，重启电脑再打开 v2rayN，问题应该已经得到解决。   
     
     
-
+</br>
 SSR软件下载（Assets下ShadowsocksR-win.zip）：ShadowsocksR-win-4.9.2.zip<a href="https://github.com/shadowsocksrr/shadowsocksr-csharp/releases">点击下载</a>
 
 
