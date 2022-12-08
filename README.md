@@ -165,6 +165,7 @@ https://jingyan.baidu.com/article/4dc40848f2c18e89d946f193.html
     
 ####   SSH连接工具
 1<a href="https://wa6.lanzoux.com/ihjg2y3h14j/" target="_blank" rel="noopener noreferrer">FinalShell下载</a>
+    
 2<a href="https://wa6.lanzoux.com/iPeC7y3hryf/" target="_blank" rel="noopener noreferrer">FinalShell-MAC版下载</a>   
     
     
@@ -185,10 +186,11 @@ https://jingyan.baidu.com/article/4dc40848f2c18e89d946f193.html
 ## 工具区域
 
     
-#####  官方翻墙软件下载
+###  官方翻墙软件下载
 请大家根据使用的系统下载对应的软件，主流的翻墙软件是V2ray、Clash、Shadowrocket
 
-Windows软件下载
+### Windows软件下载
+    
 v2rayN软件下载（Assets下v2rayN与core都下载并解压，解压后将core文件夹放到v2rayN里面就行）：v2rayN-Core.zip<a href="https://github.com/2dust/v2rayN/releases/tag/5.38">点击下载</a>
     
 .NET Framework下载（windows需要4.8版本）<a href="https://dotnet.microsoft.com/zh-cn/download/dotnet-framework">点击下载</a>
@@ -197,21 +199,26 @@ v2rayN软件下载（Assets下v2rayN与core都下载并解压，解压后将core
 v2rayN 目前需要使用微软官网 .Net 4.8 的运行库，若缺少该运行库会导致无法正常使用
 
 
-
+#### v2rayN使用教程
+    
 添加节点
-下载完软件后，解压到桌面，无需安装，打开文件夹找到
+    
+1下载完软件后，解压到桌面，无需安装，打开文件夹找到
 
 ![adsa_2.png](https://s2.loli.net/2022/10/11/pEizBmtrqWD9A1c.png)
 
 右击选择以管理员身份运行
+</br>
 
-复制您的节点，在服务器栏目下，找到“从剪切板导入”，左键点击即可
+2复制您的节点，在服务器栏目下，找到“从剪切板导入”，左键点击即可
 
 ![324ds.webp](https://s2.loli.net/2022/10/11/YiB2TVWwkP7CndE.webp)
+</br>
 
-导入成功后右击节点，找到“设为活动服务器”，左击即可
+3导入成功后右击节点，找到“设为活动服务器”，左击即可
+</br>
 
-上网的时候右击右下角图标，确保路由选择”绕过“，系统代理选择”自动配置“
+4上网的时候右击右下角图标，确保路由选择”绕过“，系统代理选择”自动配置“
 
 
  ![3213123fd.webp](https://s2.loli.net/2022/10/11/4gbhNBQ8lIXfG13.webp)
@@ -219,8 +226,9 @@ v2rayN 目前需要使用微软官网 .Net 4.8 的运行库，若缺少该运行
 
 ![fsfd123.webp](https://s2.loli.net/2022/10/11/8QdCMhfZR56qEOk.webp)
  
+</br>
 
-如果显示服务一直显示启动中
+注意*如果显示服务一直显示启动中
 
 ![62ad632788c39.png](https://s2.loli.net/2022/10/11/vuTQrm3xgMypRaj.png)
 
@@ -231,24 +239,25 @@ v2rayN 目前需要使用微软官网 .Net 4.8 的运行库，若缺少该运行
 SSR软件下载（Assets下ShadowsocksR-win.zip）：ShadowsocksR-win-4.9.2.zip<a href="https://github.com/shadowsocksrr/shadowsocksr-csharp/releases">点击下载</a>
 
 
+</br>
     
-    
-安卓APP下载
+### 安卓APP下载
 v2Ray APP下载（Assets下v2rayNG.apk）：v2rayNG.apk<a href="https://github.com/2dust/v2rayNG/releases/tag/1.7.23">点击下载</a>
+</br>
 1.安装完成后，复制粘贴您的节点（也可以扫码），点击右上角“+号”，选择从剪切板导入即可
 
 ![jhhk5jh.webp](https://s2.loli.net/2022/10/11/pzMgsGDOS2N5C7h.webp)
  
-
- 
-
+</br>
  
 
 2.点击左上角按钮，点击设置
 
 ![dasdasd5678.webp](https://s2.loli.net/2022/10/11/RONrtoBW2h6QGcp.webp)
+</br>
 
 3.域名策略：选择Match
+</br>
 
 4.预定义规则 / Predefined rules”，根据您的需求选择代理模式：
 
@@ -261,36 +270,28 @@ v2Ray APP下载（Assets下v2rayNG.apk）：v2rayNG.apk<a href="https://github.c
  
 
 返回到主页面，点击右下角灰色v图标，待他变绿即可
+</br>
     
 
 SSR APP下载（Assets下shadowsocksr-android.apk）：shadowsocksr-android.apk<a href="https://github.com/shadowsocksrr/shadowsocksr-android/releases">点击下载</a>
 
 
     
-    
-MAC电脑软件下载
+</br>
+### MAC电脑软件下载
 Clash X 软件下载（Assets下ClashX.dmg）：ClashX.dmg<a href="https://github.com/yichengchen/clashX/releases">点击下载</a>
+
+下载的文件一般放置于用户的”下载”文件夹，使用 Finder找到下载文件。
     
 MAC推荐使用ClashX
 
-
-### 应用概述
 
 ClashX 是一个拥有 GUI界面基于Clash 可自定义规则的 macOS代理应用。
 
 支持Shadowsocks协议和其 simple-obfs插件、v2ray-plugin 插件以及 VMess 协议和其 TCP、WebSocket 等传输方式。
 
 
-### 应用下载
-
-以下是ClashX的下载地址。
-
-官方最新下载（不会使用GITHUB建议下载下方版本）：[ClashX](https://github.com/yichengchen/clashX/releases)
-
-下载ClashX的安装文件，文件格式为”dmg”格式，相当于一个光盘镜像文件。 下载的文件一般放置于用户的”下载”文件夹，使用 Finder找到下载文件。
-
-
-### 订阅链接配置
+#### 订阅链接配置
 
 以一个节点为例, 给大家做个示范:
 
@@ -304,7 +305,7 @@ ClashX 是一个拥有 GUI界面基于Clash 可自定义规则的 macOS代理应
 
 安装过程其实就相当于把 ClashX的程序文件夹复制到 Mac电脑中，放置在”Applicationes”目录是方便应用程序的访问和使用。
 
- 
+ </br>
 
 复制完成后，就可以在应用程序中看到 ClashX 应用图标，表示安装已经成功。我们就可以把虚拟光盘弹出，然后删除下载目录中的dmg文件。
 
@@ -313,6 +314,9 @@ ClashX 是一个拥有 GUI界面基于Clash 可自定义规则的 macOS代理应
 ![daaa3d.webp](https://s2.loli.net/2022/10/11/7cEJ3rhpQCqV5k4.webp)
 
 ![Clashx-1.webp](https://s2.loli.net/2022/10/11/2oWePOfgzd8Rlba.webp)
+
+</br>
+
 
 点击菜单栏中ClashX的图标，选择 配置 => 托管配置 => 管理，
 
@@ -324,14 +328,15 @@ ClashX 是一个拥有 GUI界面基于Clash 可自定义规则的 macOS代理应
 
 ![Clashx-4.webp](https://s2.loli.net/2022/10/11/4CbWDRZoqLgXPtS.webp)
 
+</br>
 
 点击菜单栏中 ClashX 的图标，出站模式选择 **规则**，勾选下方的 **设置为系统代理** 以及 **开机启动（可选**）。
 
 注意，ClashX目前不支持v2ray的vless协议，所以vless节点显示为失败。
 
- 
+ </br>
 
-### 开始使用
+#### 开始使用
 
 点击菜单栏中 ClashX 的图标，然后在下方的** Proxy 策略组** 中 节点选择 选 自动选择 或者你中意的节点即可。
 
@@ -353,12 +358,14 @@ ClashX 是一个拥有 GUI界面基于Clash 可自定义规则的 macOS代理应
 
 ![Clashx-6.webp](https://s2.loli.net/2022/10/11/vjigADhZlI8BESV.webp)
 
+</br>
 V2Ray软件下载（Assets下两个V2rayU按照自己电脑自行下载）：V2rayU.dmg<a href="https://github.com/yanue/V2rayU/releases">点击下载</a>
 
+</br>
+    
+    
+### Clash软件下载
 
-    
-    
-Clash软件下载
 Clash-Win版本 和 MAC版本 下载（Assets下自行选择）<a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">点击下载</a>
 
 Clash-Android版本下载（Assets下自行选择）<a href="https://github.com/Kr328/ClashForAndroid/releases">点击下载</a>
@@ -367,7 +374,9 @@ Clash-Android版本下载（Assets下自行选择）<a href="https://github.com/
 
 <a name="xhj"></a>   
  ###  关于小火箭（Shadowrocket，iOS专用）   
+ 
  其实iOS安装app在appstore安装即可，但是 小火箭在国区appstore已经下架了，所以只能在非国区的appstore下载安装；所以就需要非国区的appstore账号；并且小火箭也不是免费的，美国区appstore的小火箭售价是2.99美金
+ </br>
 一、准备工作
 
 1.一个能接收短信的国内手机号
@@ -375,7 +384,7 @@ Clash-Android版本下载（Assets下自行选择）<a href="https://github.com/
 2.未注册过Apple ID的邮箱
 
 3.美国地址生成器
-
+</br>
 二、注册
 为方便注册，此方法全程都在手机中操作，无需电脑。
 
