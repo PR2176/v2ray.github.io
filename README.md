@@ -61,13 +61,44 @@
 
 #### [测速点四](https://speed.cloudflare.com/)
     
-<a name="jdht"></a>
+
+    
+    <a name="jdht"></a>
+## 节点后台功能    
+###### 1.可自行为其他用户添加各类客户端节点
+
+
+
+###### 2.可自行设置其他用户可使用流量
+
+
+
+###### 3.可自行设置其他用户到期时间    
 <img src="https://s2.loli.net/2022/11/26/mrB6bFvEc7WNdtl.png" alt="系统状态">
 <img src="https://s2.loli.net/2022/11/26/qfDE4WAxyUNbnrm.png" alt="入站列表">
 <img src="https://s2.loli.net/2022/11/26/5bkeTdEwxXUMuIy.png" alt="添加节点">
 <img src="https://s2.loli.net/2022/11/26/znfpyY6ORb2lmMx.png" alt="面板设置">
 <img src="https://s2.loli.net/2022/11/26/c9DjT8o6yALM7Jl.png" alt="用户设置">
 <img src="https://s2.loli.net/2022/11/26/nsRhjECgXeNl1WF.png" alt="xray设置">    
+ #### vmess设置
+
+![vmess](https://s2.loli.net/2022/10/11/l2EFQaq6wAObXBo.webp)
+
+
+
+#### vless设置
+
+![vless](https://s2.loli.net/2022/10/11/UErQYVyTGw4N76C.webp)
+
+
+路径：
+
+公钥文件路径
+/root/cert.crt
+
+密钥文件路径
+/root/private.key   
+    
     
 <a name="fwqzc"></a>
 ### 注册流程
