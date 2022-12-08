@@ -197,11 +197,11 @@ apt install -y curl
 
 apt install -y socat
 
-4.安装脚本
+4.输入下面命令，然后回车
 
 curl https://get.acme.sh | sh
 
-5.安装脚本 （将exnbdzxmnv543@gmail.com换成你自己的邮箱）
+5.输入下面命令，然后回车 （将exnbdzxmnv543@gmail.com换成你自己的邮箱）
 
 ~/.acme.sh/acme.sh --register-account -m exnbdzxmnv543@gmail.com
 
@@ -213,15 +213,15 @@ iptables -I INPUT -p tcp --dport 443 -j ACCEPT
 
 iptables -I INPUT -p tcp --dport 1000:65535 -j ACCEPT
 
-7.申请证书（将baidu.com换成你的域名 ）
+7.输入下面命令，然后回车（将baidu.com换成你的域名 ）
 
 ~/.acme.sh/acme.sh  --issue -d baidu.com   --standalone
 
-8.申请证书（将baidu.com换成你的域名 ）
+8.输入下面命令，然后回车（将baidu.com换成你的域名 ）
 
 ~/.acme.sh/acme.sh --installcert -d baidu.com --key-file /root/private.key --fullchain-file /root/cert.crt
 
-9.安装xray脚本
+9.安装xray脚本,输入下面命令，然后回车
 
 bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
             
