@@ -153,9 +153,10 @@ Vultr商家支持PayPal和支付宝等主流支付，最低10美元（大概70�
 
     
 ##  域名解析
-1.请购买国外域名，一般第一年便宜15块左右（选.xyz），续费比较贵80-90一年，用一年重新买一个就行了，没必要花那冤枉钱，https://www.namecheap.com/或者https://www.godaddy.com/
+1.请购买国外域名，一般第一年便宜15块左右（选.xyz），续费比较贵80-90一年，用一年重新买一个就行了，没必要花那冤枉钱，https://www.namecheap.com/ 或者 https://www.godaddy.com/
     
-2.注册 https://www.cloudflare.com/（他的域名稍贵，所以在别的服务商买） ，将买的域名转到cloudflare（https://321555.xyz/domian/%E4%BB%8Enamecheap%E8%BD%AC%E7%A7%BB%E5%9F%9F%E5%90%8D%E5%88%B0cloudflare/）
+2.注册 https://www.cloudflare.com/ （他的域名稍贵，所以在别的服务商买） ，将买的域名转到cloudflare（https://321555.xyz/domian/%E4%BB%8Enamecheap%E8%BD%AC%E7%A7%BB%E5%9F%9F%E5%90%8D%E5%88%B0cloudflare/）
+    
 3.也可以在namecheap解析（https://zhuanlan.zhihu.com/p/33261777）
 
     
@@ -163,8 +164,8 @@ Vultr商家支持PayPal和支付宝等主流支付，最低10美元（大概70�
 https://jingyan.baidu.com/article/4dc40848f2c18e89d946f193.html
     
 ####   SSH连接工具
-    <a href="https://wa6.lanzoux.com/ihjg2y3h14j/" target="_blank" rel="noopener noreferrer">FinalShell下载</a>
-    <a href="https://wa6.lanzoux.com/iPeC7y3hryf/" target="_blank" rel="noopener noreferrer">FinalShell-MAC版下载</a>   
+1<a href="https://wa6.lanzoux.com/ihjg2y3h14j/" target="_blank" rel="noopener noreferrer">FinalShell下载</a>
+2<a href="https://wa6.lanzoux.com/iPeC7y3hryf/" target="_blank" rel="noopener noreferrer">FinalShell-MAC版下载</a>   
     
     
     
