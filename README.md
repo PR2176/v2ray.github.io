@@ -149,7 +149,34 @@ Vultr商家支持PayPal和支付宝等主流支付，最低10美元（大概70�
 请选择开通5美元（1000G）或6美元（2000G）套餐，一般2-3人使用可以选择6美元套餐
 
 
+    
+##  域名解析
+1.请购买国外域名，一般第一年便宜15块左右（选.xyz），续费比较贵80-90一年，用一年重新买一个就行了，没必要花那冤枉钱，https://www.namecheap.com/或者https://www.godaddy.com/
+    
+2.注册 https://www.cloudflare.com/（他的域名稍贵，所以在别的服务商买） ，将买的域名转到cloudflare（https://321555.xyz/domian/%E4%BB%8Enamecheap%E8%BD%AC%E7%A7%BB%E5%9F%9F%E5%90%8D%E5%88%B0cloudflare/）
+3.也可以在namecheap解析（https://zhuanlan.zhihu.com/p/33261777）
 
+    
+## ssh连接
+[    ](https://jingyan.baidu.com/article/4dc40848f2c18e89d946f193.html)
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+<a name="gj"></a>   
 ## 工具区域
 
 ####   SSH连接 
@@ -241,6 +268,88 @@ SSR APP下载（Assets下shadowsocksr-android.apk）：shadowsocksr-android.apk<
     
 MAC电脑软件下载
 Clash X 软件下载（Assets下ClashX.dmg）：ClashX.dmg<a href="https://github.com/yichengchen/clashX/releases">点击下载</a>
+    
+MAC推荐使用ClashX
+
+
+### 应用概述
+
+ClashX 是一个拥有 GUI界面基于Clash 可自定义规则的 macOS代理应用。
+
+支持Shadowsocks协议和其 simple-obfs插件、v2ray-plugin 插件以及 VMess 协议和其 TCP、WebSocket 等传输方式。
+
+
+### 应用下载
+
+以下是ClashX的下载地址。
+
+官方最新下载（不会使用GITHUB建议下载下方版本）：[ClashX](https://github.com/yichengchen/clashX/releases)
+
+下载ClashX的安装文件，文件格式为”dmg”格式，相当于一个光盘镜像文件。 下载的文件一般放置于用户的”下载”文件夹，使用 Finder找到下载文件。
+
+
+### 订阅链接配置
+
+以一个节点为例, 给大家做个示范:
+
+首先 双击ClashX.dmg，打开 ClashX安装程序
+
+![ClashX-1_2.webp](https://s2.loli.net/2022/10/11/24LMOBycNHuh3wF.webp)
+
+图：运行ClashX 安装程序
+
+此时，桌面上会生成一个虚拟光盘，并将下载的镜像文件装载到该光盘，并弹出一个窗口，按照提示将窗口左侧的”ClashX”图标拖拽到窗口右侧的”Applications”文件夹，即完成了 ClashX 的安装。
+
+安装过程其实就相当于把 ClashX的程序文件夹复制到 Mac电脑中，放置在”Applicationes”目录是方便应用程序的访问和使用。
+
+ 
+
+复制完成后，就可以在应用程序中看到 ClashX 应用图标，表示安装已经成功。我们就可以把虚拟光盘弹出，然后删除下载目录中的dmg文件。
+
+第一次启动ClashX时，依次点击：打开、安装、输入密码，点击“安装帮助程序”，即可启动ClashX了（如下图）。
+
+![daaa3d.webp](https://s2.loli.net/2022/10/11/7cEJ3rhpQCqV5k4.webp)
+
+![Clashx-1.webp](https://s2.loli.net/2022/10/11/2oWePOfgzd8Rlba.webp)
+
+点击菜单栏中ClashX的图标，选择 配置 => 托管配置 => 管理，
+
+![Clashx-2.webp](https://s2.loli.net/2022/10/11/dYEAuCfXNGblS5n.webp)
+
+然后点击 添加 ，粘贴上方 拷贝的订阅链接（注意，粘贴后如果看不到url，可能是因为多了一个空行，按一次“Backspace删除键”即可）。
+
+![Clashx-3.webp](https://s2.loli.net/2022/10/11/aFXJQ9TenLGfBOP.webp)
+
+![Clashx-4.webp](https://s2.loli.net/2022/10/11/4CbWDRZoqLgXPtS.webp)
+
+
+点击菜单栏中 ClashX 的图标，出站模式选择 **规则**，勾选下方的 **设置为系统代理** 以及 **开机启动（可选**）。
+
+注意，ClashX目前不支持v2ray的vless协议，所以vless节点显示为失败。
+
+ 
+
+### 开始使用
+
+点击菜单栏中 ClashX 的图标，然后在下方的** Proxy 策略组** 中 节点选择 选 自动选择 或者你中意的节点即可。
+
+注意：Clash使用 HTTP HEAD方法对测试网址（server_check_url）进行网页相应测试，以确认节点的可用性。数值在5000以内均为正常值，超出则显示为超时。数值大小和网速快慢没太大关系。
+
+
+### 其他注意事项
+
+请不要修改 ~/.config/clash/config.yml 中的端口配置，否则会导致应用异常。
+
+
+### ClashX 局域网代理共享
+
+1、在 mac 终端上使用ifconfig命令获取本地IP地址。
+
+![Clashx-5.webp](https://s2.loli.net/2022/10/11/5tsb9x8nzQ7ECL3.webp)
+
+2、打开ClashX 控制台，在「设置」选项卡中打开「允许来自局域网的连接」，并获取 HTTP/SOCKS代理端口号。
+
+![Clashx-6.webp](https://s2.loli.net/2022/10/11/vjigADhZlI8BESV.webp)
 
 V2Ray软件下载（Assets下两个V2rayU按照自己电脑自行下载）：V2rayU.dmg<a href="https://github.com/yanue/V2rayU/releases">点击下载</a>
 
@@ -253,14 +362,7 @@ Clash-Win版本 和 MAC版本 下载（Assets下自行选择）<a href="https://
 Clash-Android版本下载（Assets下自行选择）<a href="https://github.com/Kr328/ClashForAndroid/releases">点击下载</a>
 
     
-        <li><a href="#fwqcs">节点测速</a></li>
-        <li><a href="#jdht">节点后台</a></li>
-        <li><a href="#fwqzc">服务器注册</a></li>
-        <li><a href="#ymjx">域名解析</a></li>
-        <li><a href="#sshlj">SSH连接</a></li>
-        <li><a href="#dajian">开始搭建</a></li>
-        <li><a href="#gj">工具区域</a></li>
-        <li><a href="#xhj">关于小火箭</a></li>    
+
 <a name="xhj"></a>   
  ###  关于小火箭（Shadowrocket，iOS专用）   
  其实iOS安装app在appstore安装即可，但是 小火箭在国区appstore已经下架了，所以只能在非国区的appstore下载安装；所以就需要非国区的appstore账号；并且小火箭也不是免费的，美国区appstore的小火箭售价是2.99美金
@@ -275,7 +377,7 @@ Clash-Android版本下载（Assets下自行选择）<a href="https://github.com/
 二、注册
 为方便注册，此方法全程都在手机中操作，无需电脑。
 
-首先复制下方链接至Safari浏览器进入美国的Apple官网打开即可进入注册页面
+首先复制下方链接至Safari浏览器进入美国的Apple官网打开即可进入注册页面（如果打不开关闭代理）
 
 https://appleid.apple.com/account
 注册账号前需要注意三点：
