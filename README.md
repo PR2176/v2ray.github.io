@@ -1,7 +1,7 @@
 #  前言
 
 提供v2ray与x-ui一体搭建教程，实在看不懂的，可以<p>TG留言<a href="https://t.me/wangfast" target="_blank" rel="noopener noreferrer">点击留言 </a></p> 
-帮忙搭建不收费，右上角点亮小星星，10分钟完事儿，时间不固定，我一般半夜看TG，我看见就会回你们了，请附上IP地址
+搭建不收费，右上角点亮小星星，时间不固定，我一般半夜看TG，我看见就会回你们了，10分钟完事儿，请附上IP，地址和密码或远程密钥
 
 
 ![123.png](https://s2.loli.net/2022/12/08/rzfMEwc1lKU6CyW.png)
@@ -24,7 +24,7 @@ ssh连接后，输入命令passwd
         <li><a href="#sshlj">SSH连接</a></li>
         <li><a href="#dajian">开始搭建</a></li>
         <li><a href="#gj">工具区域</a></li>
-   
+        <li><a href="#xhj">关于小火箭</a></li>
 </body>
 </html>
 
@@ -162,29 +162,206 @@ Vultr商家支持PayPal和支付宝等主流支付，最低10美元（大概70�
 
 Windows软件下载
 v2rayN软件下载（Assets下v2rayN与core都下载并解压，解压后将core文件夹放到v2rayN里面就行）：v2rayN-Core.zip<a href="https://github.com/2dust/v2rayN/releases/tag/5.38">点击下载</a>
+.NET Framework下载（windows需要4.8版本）<a href="https://dotnet.microsoft.com/zh-cn/download/dotnet-framework">点击下载</a>
+
+
+v2rayN 目前需要使用微软官网 .Net 4.8 的运行库，若缺少该运行库会导致无法正常使用
+
+
+
+添加节点
+下载完软件后，解压到桌面，无需安装，打开文件夹找到
+
+![adsa_2.png](https://s2.loli.net/2022/10/11/pEizBmtrqWD9A1c.png)
+
+右击选择以管理员身份运行
+
+复制您的节点，在服务器栏目下，找到“从剪切板导入”，左键点击即可
+
+![324ds.webp](https://s2.loli.net/2022/10/11/YiB2TVWwkP7CndE.webp)
+
+导入成功后右击节点，找到“设为活动服务器”，左击即可
+
+上网的时候右击右下角图标，确保路由选择”绕过“，系统代理选择”自动配置“
+
+
+ ![3213123fd.webp](https://s2.loli.net/2022/10/11/4gbhNBQ8lIXfG13.webp)
+
+
+![fsfd123.webp](https://s2.loli.net/2022/10/11/8QdCMhfZR56qEOk.webp)
+ 
+
+如果显示服务一直显示启动中
+
+![62ad632788c39.png](https://s2.loli.net/2022/10/11/vuTQrm3xgMypRaj.png)
+
+请下载并安装 .Net Framework 4.8 后，重启电脑再打开 v2rayN，问题应该已经得到解决。   
+    
+    
 
 SSR软件下载（Assets下ShadowsocksR-win.zip）：ShadowsocksR-win-4.9.2.zip<a href="https://github.com/shadowsocksrr/shadowsocksr-csharp/releases">点击下载</a>
 
 
+    
+    
 安卓APP下载
 v2Ray APP下载（Assets下v2rayNG.apk）：v2rayNG.apk<a href="https://github.com/2dust/v2rayNG/releases/tag/1.7.23">点击下载</a>
+1.安装完成后，复制粘贴您的节点（也可以扫码），点击右上角“+号”，选择从剪切板导入即可
+
+![jhhk5jh.webp](https://s2.loli.net/2022/10/11/pzMgsGDOS2N5C7h.webp)
+ 
+
+ 
+
+ 
+
+2.点击左上角按钮，点击设置
+
+![dasdasd5678.webp](https://s2.loli.net/2022/10/11/RONrtoBW2h6QGcp.webp)
+
+3.域名策略：选择Match
+
+4.预定义规则 / Predefined rules”，根据您的需求选择代理模式：
+
+全局 / Global：代理所有流量
+适用于不依赖大陆服务的用户
+
+绕过大陆地址 / Bypassing  mainland address
+适用于同时使用国内外服务的用户
+
+ 
+
+返回到主页面，点击右下角灰色v图标，待他变绿即可
+    
 
 SSR APP下载（Assets下shadowsocksr-android.apk）：shadowsocksr-android.apk<a href="https://github.com/shadowsocksrr/shadowsocksr-android/releases">点击下载</a>
 
 
+    
+    
 MAC电脑软件下载
 Clash X 软件下载（Assets下ClashX.dmg）：ClashX.dmg<a href="https://github.com/yichengchen/clashX/releases">点击下载</a>
 
 V2Ray软件下载（Assets下两个V2rayU按照自己电脑自行下载）：V2rayU.dmg<a href="https://github.com/yanue/V2rayU/releases">点击下载</a>
 
 
+    
+    
 Clash软件下载
 Clash-Win版本 和 MAC版本 下载（Assets下自行选择）<a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">点击下载</a>
 
 Clash-Android版本下载（Assets下自行选择）<a href="https://github.com/Kr328/ClashForAndroid/releases">点击下载</a>
 
+    
+        <li><a href="#fwqcs">节点测速</a></li>
+        <li><a href="#jdht">节点后台</a></li>
+        <li><a href="#fwqzc">服务器注册</a></li>
+        <li><a href="#ymjx">域名解析</a></li>
+        <li><a href="#sshlj">SSH连接</a></li>
+        <li><a href="#dajian">开始搭建</a></li>
+        <li><a href="#gj">工具区域</a></li>
+        <li><a href="#xhj">关于小火箭</a></li>    
+<a name="xhj"></a>   
+ ###  关于小火箭（Shadowrocket，iOS专用）   
+ 其实iOS安装app在appstore安装即可，但是 小火箭在国区appstore已经下架了，所以只能在非国区的appstore下载安装；所以就需要非国区的appstore账号；并且小火箭也不是免费的，美国区appstore的小火箭售价是2.99美金
+一、准备工作
 
-*下载软件时，打开网页找到Assets位置，可以看到下载文件
+1.一个能接收短信的国内手机号
+
+2.未注册过Apple ID的邮箱
+
+3.美国地址生成器
+
+二、注册
+为方便注册，此方法全程都在手机中操作，无需电脑。
+
+首先复制下方链接至Safari浏览器进入美国的Apple官网打开即可进入注册页面
+
+https://appleid.apple.com/account
+注册账号前需要注意三点：
+
+1.出生日期：建议设置成大于18周岁的日期，否则会导致部分应用由于年龄限制无法使用。
+
+2.电子邮件：建议新注册一个全新的未注册过Apple ID的邮箱。
+
+3.手机号码：亲测，注册过国区Apple ID的手机号也可正常使用，无需纠结。
+
+具体注册方法如下图：
+
+![appleid1.webp](https://s2.loli.net/2022/10/11/HxehWqDMVC8rF5O.webp)
+
+需要验证电子邮件、手机号码，依次点击下一步。
+
+![appleid2.webp](https://s2.loli.net/2022/10/11/CbmAO53ILvwUZRS.webp)
+
+注册成功后，会自动登录，如果没登录则重新登录刚注册的账号即可。
+
+接下来选择付款和送货，接着再选择添加付款方式。
+
+![appleid3.webp](https://s2.loli.net/2022/10/11/sKbiQU5Erv7u8gT.webp)
+
+下一步填写付款方式&账单地址，这步很关键，需要借助美国地址生成器。
+
+在生成地址前需要选择美国州，建议选以下五个免税州：
+
+蒙大拿州（Montana）
+俄勒冈州（Oregon）
+阿拉斯加州（Alaska）
+特拉华州（Delaware）
+新罕布什尔州（New Hampshire）
+
+美国地址生成器：>>>传送门<<<
+
+https://www.meiguodizhi.com/
+下图中标注的“由美国地址生成器生成”的内容，直接复制美国地址生成器中生成的内容即可。
+
+![appleid4.webp](https://s2.loli.net/2022/10/11/LKG9QVFRqkdyNYT.webp)
+
+打开App Store，点击右上角的头像，然后拉到末尾，点击退出登录。
+
+![appleid5.webp](https://s2.loli.net/2022/10/11/UtznxTFfbjXoiYW.webp)
+
+再次点击App Store中右上角的头像，输入前面注册的美区账号&密码，点击登录即可。
+
+![appleid6.webp](https://s2.loli.net/2022/10/11/bGZE5XIiUh9sWyQ.webp)
+
+然后会跳出一个弹窗，选择检查即可，接着打开同意条款与条件，选择下一页。
+
+![appleid7.webp](https://s2.loli.net/2022/10/11/VnsUtl2JqLGIAuX.webp)
+
+不要修改任何内容，直接点击下一页，点击继续。
+
+![appleid8.webp](https://s2.loli.net/2022/10/11/7OWaypSkXVc3qQA.webp)
+
+看到下图英文，点击Continue即可，美区Apple ID注册成功！
+
+![appleid9.webp](https://s2.loli.net/2022/10/11/KTkm1Sgd9pcCBzO.webp)
+
+此时就能下载各种美区的APP了
+
+三、充值
+部分APP需要付费的，就需要充值，有两种充值方法。
+
+1.某宝（有封号风险）
+
+直接搜索“苹果礼品卡”，找开店时间久，信用等级高的商家，与卖家沟通好，尽可能避免买到黑卡，若是黑卡你的账号会被封，要做好被封号的心理准备。
+
+2.美国Apple官网购买（有门槛）
+
+建议去苹果美国官网购买礼品卡，稳妥一些，但有门槛，需要一张双币种信用卡。
+
+附官方购买地址：
+
+https://www.apple.com/shop/buy-giftcard/giftcard
+四、注意事项
+1.不要在设置中登录美区Apple ID，以免造成不必要的麻烦！下载美区APP只需在App Store中登就行了，下载完后再换回国区账号即可。
+
+2.如果你有在用Apple Music，切换成美区后会导致已下载的歌曲全被清空。
+
+3.建议别把美区Apple ID当成主力账号，还是要以国区ID为主，需要下美区应用时登录就行了，以免出现意外造成不必要的麻烦。
+
+4.付费购买的APP安装后建议别轻易卸载，即使买到黑卡账号被封，已经安装使用的APP也不影响，但卸载后账号被封就没法重新下载了。
+
 
 
     
