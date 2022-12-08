@@ -1,6 +1,6 @@
 #  前言
 
-提供v2ray与x-ui一体搭建教程，实在看不懂的，可以TG留言，帮忙搭建不收费，右上角点亮小星星，10分钟完事儿，时间不固定，我一般半夜看TG，我看见就会回你们了，请附上IP地址
+提供v2ray与x-ui一体搭建教程，实在看不懂的，可以TG留言（https://t.me/wangfast） ， 帮忙搭建不收费，右上角点亮小星星，10分钟完事儿，时间不固定，我一般半夜看TG，我看见就会回你们了，请附上IP地址
 
 
 ![123.png](https://s2.loli.net/2022/12/08/rzfMEwc1lKU6CyW.png)
@@ -101,10 +101,10 @@ ssh连接后，输入命令passwd
 
 
 
-#### vless设置
+#### vless、Trojan等其他协议可自行设置
+    
 
-![vless](https://s2.loli.net/2022/10/11/UErQYVyTGw4N76C.webp)
-
+域名：就是你的域名，如baidu.com（无www），要是我帮忙搭建的，会提供给你免费的域名
 
 路径：
 
