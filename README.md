@@ -158,9 +158,11 @@ Vultr商家支持PayPal和支付宝等主流支付，最低10美元（大概70�
 
     
 ## ssh连接
-[    ](https://jingyan.baidu.com/article/4dc40848f2c18e89d946f193.html)
+https://jingyan.baidu.com/article/4dc40848f2c18e89d946f193.html
     
-    
+####   SSH连接工具
+    <a href="https://wa6.lanzoux.com/ihjg2y3h14j/" target="_blank" rel="noopener noreferrer">FinalShell下载</a>
+    <a href="https://wa6.lanzoux.com/iPeC7y3hryf/" target="_blank" rel="noopener noreferrer">FinalShell-MAC版下载</a>   
     
     
     
@@ -179,10 +181,6 @@ Vultr商家支持PayPal和支付宝等主流支付，最低10美元（大概70�
 <a name="gj"></a>   
 ## 工具区域
 
-####   SSH连接 
-    <a href="https://wa6.lanzoux.com/ihjg2y3h14j/" target="_blank" rel="noopener noreferrer">FinalShell下载</a>
-    <a href="https://wa6.lanzoux.com/iPeC7y3hryf/" target="_blank" rel="noopener noreferrer">FinalShell-MAC版下载</a>
- 
     
 #####  官方翻墙软件下载
 请大家根据使用的系统下载对应的软件，主流的翻墙软件是V2ray、Clash、Shadowrocket
